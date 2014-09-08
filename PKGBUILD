@@ -10,7 +10,7 @@ arch=('i686' 'x86_64')
 options=(!strip)
 url="http://www.jetbrains.com/${_pkgname}"
 license=('custom')
-depends=('java-environment>=6')
+depends=('cmake' 'gdb' 'java-environment>=6')
 source=(http://download.jetbrains.com/cpp/${_pkgname}-${pkgver}.tar.gz)
 sha512sums=('c71700cc544f4a6aeb3085425e49dbe31793550a3721c91a19f93bc729911696056153e522e76c4e7e204550ee714a8b16d8380eda2504ded5556ef43da23ede')
 
