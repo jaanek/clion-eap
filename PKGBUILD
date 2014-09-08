@@ -33,7 +33,7 @@ cat <<EOF
 Version=${pkgver}
 Type=Application
 Name=${pkgname}
-Exec="/opt/${pkgname}/bin/${pkgname}.sh" %f
+Exec="/usr/bin/${pkgname}" %f
 Icon=${pkgname}
 Comment=${pkgdesc}
 GenericName=${_pkgname}
