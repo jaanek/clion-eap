@@ -1,0 +1,6 @@
+# Arch packages generated files
+pkg/
+src/
+# Sources and packages
+*.tar.xz
+*.tar.gz
